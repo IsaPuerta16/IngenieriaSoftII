@@ -1,8 +1,8 @@
 package Taller3;
 
-public class EnvioEstandar extends Envio {
+public class EnvioInternacional extends Envio {
     @Override
     public double calcularCosto(double peso, double distancia) {
-        return peso * 0.5 + distancia * 0.1;
+        return peso * 1.5 + distancia * 0.5;
     }
 }
